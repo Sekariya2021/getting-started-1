@@ -36,10 +36,3 @@ jobs:
             name: getting-started-github
             location: 'west europe'
             ports: '3000'
-            volumeMounts:
-      volumes:
-  - name: filesharevolume
-    azureFile:
-      sharename: acishare
-      storageAccountName: gettingstarted
-      storageAccountKey: pGLSPNbRHQsGiPlyFzemu18zcd1GN8iyfbqh+h2De9a9Zw4sZYwmEVGuMuyT9sDRS0CHMrt2jCdF+AStgObNUA==
